@@ -10,11 +10,10 @@ function Download() {
       <div className="headline mt-7 flex flex-col items-center text-[2rem]">
         <span>Download The Best Music</span>
         <span>
-          <b>App Now!</b>
+          <b className="text-[#E600FF]">App Now!</b>
         </span>
         <span className="text-[1rem] text-gray-400 px-[15rem] text-center mt-[1rem]">
-          Duis feugiat congue metus, ultrices vulputate nibh viverra eget.
-          Vestibulum ullamcorper volutpat varius.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </span>
       </div>
       {/* dowload ads */}

@@ -1,4 +1,4 @@
-import {React, useState} from "react";
+import { React, useState } from "react";
 import { motion } from "framer-motion";
 import VisibilitySensor from "react-visibility-sensor";
 
@@ -39,8 +39,7 @@ function Feature({ icon, title }) {
         <span className="mt-5">{title}</span>
 
         <span className="text-[#707070] mt-4">
-          Nunc elementum, dolor vitae lacinia pulvinar, augue felis scelerisque
-          libero, sit amet laoreet lorem.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </span>
 
         <span className="text-[#E600FF] underline mt-[3rem] hover:cursor-pointer">

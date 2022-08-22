@@ -13,7 +13,7 @@ function MusicPlayer() {
             className="w-[2.5rem] h-[2.5rem] border-2 border-white rounded-full"
           />
           <div className="detailsf flex flex-col ml-4">
-            <span className="text-[1rem]">Tristam Bone Dry</span>
+            <span className="text-[1rem]">Imagine Dragons</span>
             <span className="text-sm text-gray-500">Unknown Artist</span>
           </div>
         </div>

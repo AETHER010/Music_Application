@@ -28,7 +28,7 @@ function Hero() {
     false: {
       left: "13rem",
     },
-  }
+  };
   const heart = {
     true: {
       left: "9rem",
@@ -47,12 +47,14 @@ function Hero() {
         <div className="headings flex flex-col items-start justify-center h-[100%] text-[3rem]">
           <span>Experience The</span>{" "}
           <span>
-            <b>Best Qulaity Music</b>
+            <b className="text-[#E600FF]">Best Qulaity Music</b>
           </span>
           <span className="text-[15px] text-[#525D6E]">
-            Donec laoreet nec velit vitae aliquam. Ut quis tincidunt purus.
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
             <br />
-            Suspendisse in leo non risus tincidunt lobortis.
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s,
           </span>
           {/* download ads */}
           <div>

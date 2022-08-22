@@ -28,13 +28,14 @@ function Search() {
       left: "6rem",
     },
   };
+
   return (
     <div className="search relative h-[65rem] px-[5rem] bg-[#081730] pt-[18rem] pb-[10rem] mt-[-15rem] z-[1] flex items-center justify-between rounded-b-[5rem]">
       {/* left side */}
       <div className="left flex-1">
         <motion.img
           variants={bg}
-          animate={`${elementIsVisible}`}
+          animate="false"
           transition={{
             duration: 1,
             type: "ease-out",
@@ -107,11 +108,10 @@ function Search() {
         <div className="detail flex flex-col mt-5 text-4xl">
           <span>Search Music by</span>
           <span>
-            <b>Name or Direct URL</b>
+            <b className="text-[#E600FF]">Name or Direct URL</b>
           </span>
           <span className="text-sm mt-3 text-[#4D586A]">
-            Duis feugiat congue metus, ultrices vulputate <br /> nibh viverra
-            eget. Vestibulum ullamcorper <br /> volutpat varius.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </span>
         </div>
         {/* Music Player */}
